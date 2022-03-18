@@ -1,0 +1,9 @@
+-- 코드를 입력하세요
+SELECT 
+    ANIMAL_ID,
+    NAME,
+IF(SUBSTRING(SEX_UPON_INTAKE,1,2) IN('Ne','Sp'),'O','X')
+
+FROM ANIMAL_INS 
+
+ORDER BY ANIMAL_ID
